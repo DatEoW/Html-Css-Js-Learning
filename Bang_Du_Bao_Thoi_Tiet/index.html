@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="row justify-content-center m-0">
+        <div class="col-8 row justify-content-around">
+            <div class="col-8 box-left" style="width: 64%;">
+              <div class="d-flex justify-content-center">
+                <div class="col-4 d-flex justify-content-between search-box ps-3 pe-3 pt-1 pb-1">
+                  <span class="fw-medium">Hanoi</span>
+                  <span><i class="fas fa-search"></i></span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center ps-5" style="gap:60px">
+                <div class="col-4">
+                  <h1 style="font-weight: bold; color: rgb(96, 89, 89);font-size: 120px;text-align: center;margin-bottom: 0;">20&deg;</h1>
+                  <h3 style="color: rgb(96, 89, 89);text-align: center;">Rainy</h3>
+                  <h5 style="color: rgb(178, 176, 176);text-align: center;">Feels like 18&deg;</h5>
+                </div>
+                <div class="col-4 img-weather">
+                  <div class="d-flex align-items-center pt-4">
+                    <img src="/img/gio.png" alt="" />
+                    <span class="fw-bold" style="font-size: 20px;">3.15 km/h</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <img src="/img/mua.png" alt="" />
+                    <span class="fw-bold"  style="font-size: 20px;">12 mm</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <img src="/img/nuoc.png" alt="" />
+                    <span class="fw-bold" style="font-size: 20px;">85 %</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <img src="/img/nang.png" alt="" />
+                    <span class="fw-bold" style="font-size: 20px;">2</span>
+                  </div>
+                </div>
+              </div>
+              <div class="container col-10 d-flex justify-content-evenly mt-5 mb-5">
+                <div class="box box-1">
+                    <p class="mb-0 text-center day">Today</p>
+                    <p class="mb-0 text-center deg">20&deg;</p>
+                    <p class="mb-0 text-center status">Mist</p>
+                </div>
+                <div class="box">
+                    <p class="mb-0 text-center day">Tue</p>
+                    <p class="mb-0 text-center deg">32&deg;</p>
+                    <p class="mb-0 text-center status">Sunny</p>
+                </div>
+                <div class="box">
+                    <p class="mb-0 text-center day">Wed</p>
+                    <p class="mb-0 text-center deg">28&deg;</p>
+                    <p class="mb-0 text-center status">Rainy</p>
+                </div>
+                <div class="box">
+                    <p class="mb-0 text-center day">Thu</p>
+                    <p class="mb-0 text-center deg">26&deg;</p>
+                    <p class="mb-0 text-center status">Rainy</p>
+                </div>
+                <div class="box">
+                    <p class="mb-0 text-center day">Fri</p>
+                    <p class="mb-0 text-center deg">22&deg;</p>
+                    <p class="mb-0 text-center status">Mist</p>
+                </div>
+                <div class="box">
+                    <p class="mb-0 text-center day">Sat</p>
+                    <p class="mb-0 text-center deg">20&deg;</p>
+                    <p class="mb-0 text-center status">Mist</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 box-right" style="width: 32%;">
+               <p class="fw-medium text-center mb-0" style="color: rgb(118, 117, 117);">Good Morning</p>
+               <p class="fw-medium text-center mb-0">08:00 AM</p>
+               <div class="d-flex justify-content-center"><img src="/img/mua.png" alt=""></div>
+               <p class="fw-semibold text-center" style="font-size: 20px;">Hourly Forecast</p>
+               <div class="container d-flex justify-content-evenly mt-5 mb-5 flex-wrap">
+                <div class="box box-1 col-4">
+                    <p class="mb-0 text-center time">8 AM</p>
+                    <p class="mb-0 text-center deg" style="padding-left: 0;">20&deg;</p>
+                    <p class="mb-0 text-center status">Rainy</p>
+                </div>
+                <div class="box col-4">
+                    <p class="mb-0 text-center time">9 AM</p>
+                    <p class="mb-0 text-center deg" style="padding-left: 0;">21&deg;</p>
+                    <p class="mb-0 text-center status">Rainy</p>
+                </div>
+                <div class="box col-4">
+                    <p class="mb-0 text-center time">10 AM</p>
+                    <p class="mb-0 text-center deg" style="padding-left: 0;">20&deg;</p>
+                    <p class="mb-0 text-center status">Rainy</p>
+                </div>
+                <div class="box col-4">
+                    <p class="mb-0 text-center time">11 AM</p>
+                    <p class="mb-0 text-center deg" style="padding-left: 0;">21&deg;</p>
+                    <p class="mb-0 text-center status">Mist</p>
+                </div>
+                <div class="box col-4">
+                    <p class="mb-0 text-center time">12 AM</p>
+                    <p class="mb-0 text-center deg" style="padding-left: 0;">22&deg;</p>
+                    <p class="mb-0 text-center status">Cloudy</p>
+                </div>
+                <div class="box col-4">
+                    <p class="mb-0 text-center time">1 PM</p>
+                    <p class="mb-0 text-center deg" style="padding-left: 0;">23&deg;</p>
+                    <p class="mb-0 text-center status">Cloudy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+   
+  </body>
+  
+</html>
